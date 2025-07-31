@@ -1,0 +1,61 @@
+$date
+  Thu Jul 31 14:52:18 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_alu $end
+$var reg 4 ! tb_opcode[3:0] $end
+$var reg 8 " tb_operand_1[7:0] $end
+$var reg 8 # tb_operand_2[7:0] $end
+$var reg 8 $ tb_result[7:0] $end
+$scope module alu_module $end
+$var reg 4 % opcode[3:0] $end
+$var reg 8 & operand_1[7:0] $end
+$var reg 8 ' operand_2[7:0] $end
+$var reg 8 ( result[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b00111010 "
+b10111001 #
+b10111011 $
+b0001 %
+b00111010 &
+b10111001 '
+b10111011 (
+#10000000000000
+b0000 !
+b00111000 $
+b0000 %
+b00111000 (
+#20000000000000
+b0010 !
+b10000011 $
+b0010 %
+b10000011 (
+#30000000000000
+b0011 !
+b11000101 $
+b0011 %
+b11000101 (
+#40000000000000
+b0100 !
+b01000110 $
+b0100 %
+b01000110 (
+#50000000000000
+b0101 !
+bZZZZZZZZ $
+b0101 %
+bZZZZZZZZ (
+#60000000000000

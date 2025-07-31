@@ -1,0 +1,36 @@
+$date
+  Thu Jul 24 16:17:58 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_instruction_decoder $end
+$var reg 20 ! tb_instruction[19:0] $end
+$var reg 4 " opcode[3:0] $end
+$var reg 8 # operand_1[7:0] $end
+$var reg 8 $ operand_2[7:0] $end
+$scope module instruction_decoder_module $end
+$var reg 20 % instruction[19:0] $end
+$var reg 4 & opcode[3:0] $end
+$var reg 8 ' operand_1[7:0] $end
+$var reg 8 ( operand_2[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00111111001110101011 !
+b0011 "
+b11110011 #
+b10101011 $
+b00111111001110101011 %
+b0011 &
+b11110011 '
+b10101011 (
+#10000000000000

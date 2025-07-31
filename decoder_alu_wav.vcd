@@ -1,0 +1,58 @@
+$date
+  Thu Jul 31 15:08:49 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_decoder_alu $end
+$var reg 20 ! tb_instruction[19:0] $end
+$var reg 4 " tb_opcode[3:0] $end
+$var reg 8 # tb_operand_1[7:0] $end
+$var reg 8 $ tb_operand_2[7:0] $end
+$var reg 8 % tb_result[7:0] $end
+$scope module instruction_decoder_module $end
+$var reg 20 & instruction[19:0] $end
+$var reg 4 ' opcode[3:0] $end
+$var reg 8 ( operand_1[7:0] $end
+$var reg 8 ) operand_2[7:0] $end
+$upscope $end
+$scope module alu_module $end
+$var reg 4 * opcode[3:0] $end
+$var reg 8 + operand_1[7:0] $end
+$var reg 8 , operand_2[7:0] $end
+$var reg 8 - result[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUUUUUUUUUUUUUU !
+bUUUU "
+bUUUUUUUU #
+bUUUUUUUU $
+bZZZZZZZZ %
+bUUUUUUUUUUUUUUUUUUUU &
+bUUUU '
+bUUUUUUUU (
+bUUUUUUUU )
+bUUUU *
+bUUUUUUUU +
+bUUUUUUUU ,
+bZZZZZZZZ -
+#10000000000000
+bUUUU '
+#20000000000000
+bUUUU '
+#30000000000000
+bUUUU '
+#40000000000000
+bUUUU '
+#50000000000000
+bUUUU '
+#60000000000000
