@@ -36,7 +36,16 @@ begin
     process
         begin
         tb_instruction <= "00010011101010111001";
-        
+        wait for 10 ms;
+        tb_instruction <= "00000011101010111001";
+        wait for 10 ms;
+        tb_instruction <= "00100011101010111001";
+        wait for 10 ms;
+        tb_instruction <= "00110011101010111001";
+        wait for 10 ms;
+        tb_instruction <= "01000011101010111001";
+        wait for 10 ms;
+        tb_instruction <= "01010011101010111001";
         wait for 10 ms;
         wait;
     
