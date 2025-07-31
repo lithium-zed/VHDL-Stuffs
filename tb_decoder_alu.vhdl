@@ -35,31 +35,9 @@ begin
 
     process
         begin
-        tb_opcode <= "0001";
-        tb_operand_1 <= "00111010";
-        tb_operand_2 <= "10111001";
-        wait for 10 ms;
-            
-        tb_opcode <= "0000";
+        tb_instruction <= "00010011101010111001";
         
         wait for 10 ms;
-    
-        tb_opcode <= "0010";
-        
-        wait for 10 ms;
-
-        tb_opcode <= "0011";
-        
-        wait for 10 ms;
-        
-        tb_opcode <= "0100";
-        
-        wait for 10 ms;
-        
-        tb_opcode <= "0101";
-        
-        wait for 10 ms;
-
         wait;
     
     end process;
