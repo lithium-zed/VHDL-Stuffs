@@ -20,3 +20,6 @@ file . "tb_instruction_decoder.vhdl" "327862ce9dd19857d7849347e105f66a11677d13" 
 file . "tb_alu.vhdl" "de27d7aa1857b8ab1885f57796575d5a6654381b" "20250731065215.291":
   entity tb_alu at 1( 0) + 0 on 43;
   architecture rtl of tb_alu at 8( 82) + 0 on 44;
+file . "traffic_light_controller.vhdl" "4145cb5588b2c546d2f27e313be33606d7787d4c" "20250807062849.648":
+  entity traffic_light_controller at 1( 0) + 0 on 57;
+  architecture rtl of traffic_light_controller at 11( 235) + 0 on 58;
