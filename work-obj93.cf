@@ -1,4 +1,7 @@
 v 4
+file . "tb_half_adder.vhdl" "418db16c9d8b994a134b296c2d29377380672c12" "20250807120254.730":
+  entity tb_half_adder at 1( 0) + 0 on 82;
+  architecture test of tb_half_adder at 7( 94) + 0 on 83;
 file . "tb_traffic_light_controller.vhdl" "939059060d80c7e931e2e170da18a3834d65cc02" "20250807070804.537":
   entity tb_traffic_light_controller at 1( 0) + 0 on 67;
   architecture rtl of tb_traffic_light_controller at 7( 126) + 0 on 68;
@@ -32,3 +35,6 @@ file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081
 file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
   entity tb_comparator at 1( 0) + 0 on 78;
   architecture rtl of tb_comparator at 7( 98) + 0 on 79;
+file . "half_adder.vhdl" "d7961b930ce8c4b2b438b0a4121fda5aac22f593" "20250807115554.430":
+  entity half_adder at 1( 0) + 0 on 80;
+  architecture rtl of half_adder at 11( 165) + 0 on 81;
