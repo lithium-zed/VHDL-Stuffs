@@ -1,0 +1,59 @@
+$date
+  Thu Aug 07 14:49:26 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_traffic_light_controller $end
+$var reg 3 ! tb_x[2:0] $end
+$var reg 6 " tb_gyr[5:0] $end
+$scope module traffic_light_controller_module $end
+$var reg 3 # x[2:0] $end
+$var reg 6 $ gyr[5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b100001 "
+b000 #
+b100001 $
+#10000000000000
+b001 !
+b010001 "
+b001 #
+b010001 $
+#20000000000000
+b010 !
+b001100 "
+b010 #
+b001100 $
+#30000000000000
+b011 !
+b001010 "
+b011 #
+b001010 $
+#40000000000000
+b100 !
+b001100 "
+b100 #
+b001100 $
+#50000000000000
+b101 !
+bXXXXXX "
+b101 #
+bXXXXXX $
+#60000000000000
+b110 !
+b110 #
+#70000000000000
+b111 !
+b111 #
+#80000000000000
