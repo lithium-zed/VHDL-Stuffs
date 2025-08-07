@@ -26,3 +26,9 @@ file . "alu.vhdl" "ef1c943cd2e70d13c6dd5442e176bf9c9c485d80" "20250731061512.625
 file . "tb_decoder_alu.vhdl" "09521046da5b671e02eb106dc4331d3924d74f3d" "20250731073200.580":
   entity tb_decoder_alu at 1( 0) + 0 on 53;
   architecture rtl of tb_decoder_alu at 7( 96) + 0 on 54;
+file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081017.448":
+  entity comparator at 1( 0) + 0 on 74;
+  architecture rtl of comparator at 11( 192) + 0 on 75;
+file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
+  entity tb_comparator at 1( 0) + 0 on 78;
+  architecture rtl of tb_comparator at 7( 98) + 0 on 79;
