@@ -1,4 +1,7 @@
 v 4
+file . "tb_half_adder.vhdl" "418db16c9d8b994a134b296c2d29377380672c12" "20250807120254.730":
+  entity tb_half_adder at 1( 0) + 0 on 82;
+  architecture test of tb_half_adder at 7( 94) + 0 on 83;
 file . "rotate_left.vhdl" "5cf17f1a39bd9ef23ca25523fd35020c757ab3df" "20250814080102.310":
   entity rotate_left at 1( 0) + 0 on 93;
   architecture rtl of rotate_left at 11( 218) + 0 on 94;
@@ -38,6 +41,9 @@ file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081
 file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
   entity tb_comparator at 1( 0) + 0 on 78;
   architecture rtl of tb_comparator at 7( 98) + 0 on 79;
+file . "half_adder.vhdl" "d7961b930ce8c4b2b438b0a4121fda5aac22f593" "20250807115554.430":
+  entity half_adder at 1( 0) + 0 on 80;
+  architecture rtl of half_adder at 11( 165) + 0 on 81;
 file . "something.vhdl" "309c3d2ade726b47e00fe334c888ff72437ae56e" "20250814055234.261":
   entity something at 1( 0) + 0 on 80;
 file . "shift_right.vhdl" "e8aa7259234ea217484ac2f9e8b85e1c79825d67" "20250814080105.612":

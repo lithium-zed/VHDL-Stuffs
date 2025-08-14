@@ -1,0 +1,53 @@
+$date
+  Thu Aug 07 20:03:20 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_half_adder $end
+$var reg 1 ! tb_x $end
+$var reg 1 " tb_y $end
+$var reg 1 # tb_c $end
+$var reg 1 $ tb_s $end
+$scope module half_adder_module $end
+$var reg 1 % x $end
+$var reg 1 & y $end
+$var reg 1 ' c $end
+$var reg 1 ( s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#10000000
+1"
+1$
+1&
+1(
+#20000000
+1!
+0"
+1%
+0&
+#30000000
+1"
+1#
+0$
+1&
+1'
+0(
+#40000000
