@@ -1,5 +1,5 @@
 $date
-  Thu Jul 31 14:52:18 2025
+  Thu Aug 14 16:17:11 2025
 $end
 $version
   GHDL v0
@@ -21,41 +21,83 @@ $var reg 4 % opcode[3:0] $end
 $var reg 8 & operand_1[7:0] $end
 $var reg 8 ' operand_2[7:0] $end
 $var reg 8 ( result[7:0] $end
+$var reg 8 ) resultsl[7:0] $end
+$var reg 8 * resultsr[7:0] $end
+$var reg 8 + resultrl[7:0] $end
+$var reg 8 , resultrr[7:0] $end
+$scope module shift_left_module $end
+$var reg 8 - operand_1[7:0] $end
+$var reg 8 . result[7:0] $end
+$upscope $end
+$scope module shift_right_module $end
+$var reg 8 / operand_1[7:0] $end
+$var reg 8 0 result[7:0] $end
+$upscope $end
+$scope module rotate_left_module $end
+$var reg 8 1 operand_1[7:0] $end
+$var reg 8 2 result[7:0] $end
+$upscope $end
+$scope module rotate_right_module $end
+$var reg 8 3 operand_1[7:0] $end
+$var reg 8 4 result[7:0] $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
-b0001 !
+b0000 !
 b00111010 "
 b10111001 #
-b10111011 $
-b0001 %
-b00111010 &
-b10111001 '
-b10111011 (
-#10000000000000
-b0000 !
 b00111000 $
 b0000 %
+b00111010 &
+b10111001 '
 b00111000 (
+b01110100 )
+b00011101 *
+b01110100 +
+b00011101 ,
+b00111010 -
+b01110100 .
+b00111010 /
+b00011101 0
+b00111010 1
+b01110100 2
+b00111010 3
+b00011101 4
+#10000000000000
+b0001 !
+b10111011 $
+b0001 %
+b10111011 (
 #20000000000000
 b0010 !
-b10000011 $
+b11000101 $
 b0010 %
-b10000011 (
+b11000101 (
 #30000000000000
 b0011 !
-b11000101 $
+b01000110 $
 b0011 %
-b11000101 (
+b01000110 (
 #40000000000000
 b0100 !
-b01000110 $
+b01110100 $
 b0100 %
-b01000110 (
+b01110100 (
 #50000000000000
 b0101 !
-bZZZZZZZZ $
+b00011101 $
 b0101 %
-bZZZZZZZZ (
+b00011101 (
 #60000000000000
+b0110 !
+b01110100 $
+b0110 %
+b01110100 (
+#70000000000000
+b0111 !
+b00011101 $
+b0111 %
+b00011101 (
+#80000000000000

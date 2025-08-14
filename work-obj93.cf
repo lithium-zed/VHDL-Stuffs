@@ -1,13 +1,19 @@
 v 4
+file . "rotate_left.vhdl" "5cf17f1a39bd9ef23ca25523fd35020c757ab3df" "20250814080102.310":
+  entity rotate_left at 1( 0) + 0 on 93;
+  architecture rtl of rotate_left at 11( 218) + 0 on 94;
+file . "shift_left.vhdl" "221e49e02ca93a1df9bacf435d3080a5aa0155ed" "20250814080107.903":
+  entity shift_left at 1( 0) + 0 on 97;
+  architecture rtl of shift_left at 12( 218) + 0 on 98;
 file . "tb_traffic_light_controller.vhdl" "939059060d80c7e931e2e170da18a3834d65cc02" "20250807070804.537":
   entity tb_traffic_light_controller at 1( 0) + 0 on 67;
   architecture rtl of tb_traffic_light_controller at 7( 126) + 0 on 68;
 file . "traffic_light_controller.vhdl" "4145cb5588b2c546d2f27e313be33606d7787d4c" "20250807062849.648":
   entity traffic_light_controller at 1( 0) + 0 on 57;
   architecture rtl of traffic_light_controller at 11( 235) + 0 on 58;
-file . "tb_alu.vhdl" "de27d7aa1857b8ab1885f57796575d5a6654381b" "20250731065215.291":
-  entity tb_alu at 1( 0) + 0 on 43;
-  architecture rtl of tb_alu at 8( 82) + 0 on 44;
+file . "tb_alu.vhdl" "6fa7acbf495d4c12178493904af6a9451ac04990" "20250814081707.095":
+  entity tb_alu at 1( 0) + 0 on 109;
+  architecture rtl of tb_alu at 8( 82) + 0 on 110;
 file . "tb_instruction_decoder.vhdl" "327862ce9dd19857d7849347e105f66a11677d13" "20250724081723.730":
   entity tb_instruction_decoder at 1( 0) + 0 on 27;
   architecture rtl of tb_instruction_decoder at 7( 112) + 0 on 28;
@@ -20,9 +26,9 @@ file . "my_and.vhdl" "2e9ec09b638428072e3ef27b6aac82182cc65016" "20250724071244.
 file . "tb_my_and.vhdl" "d911f479ef03d65f30a3e5ad123223d90f3fcb52" "20250724081709.018":
   entity tb_my_and at 1( 0) + 0 on 25;
   architecture rtl of tb_my_and at 8( 92) + 0 on 26;
-file . "alu.vhdl" "ef1c943cd2e70d13c6dd5442e176bf9c9c485d80" "20250731061512.625":
-  entity alu at 1( 0) + 0 on 33;
-  architecture rtl of alu at 13( 403) + 0 on 34;
+file . "alu.vhdl" "1043554dbfb933d4d0402be7f5c3465be6101e4d" "20250814081317.379":
+  entity alu at 1( 0) + 0 on 105;
+  architecture rtl of alu at 13( 403) + 0 on 106;
 file . "tb_decoder_alu.vhdl" "09521046da5b671e02eb106dc4331d3924d74f3d" "20250731073200.580":
   entity tb_decoder_alu at 1( 0) + 0 on 53;
   architecture rtl of tb_decoder_alu at 7( 96) + 0 on 54;
@@ -32,3 +38,11 @@ file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081
 file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
   entity tb_comparator at 1( 0) + 0 on 78;
   architecture rtl of tb_comparator at 7( 98) + 0 on 79;
+file . "something.vhdl" "309c3d2ade726b47e00fe334c888ff72437ae56e" "20250814055234.261":
+  entity something at 1( 0) + 0 on 80;
+file . "shift_right.vhdl" "e8aa7259234ea217484ac2f9e8b85e1c79825d67" "20250814080105.612":
+  entity shift_right at 1( 0) + 0 on 95;
+  architecture rtl of shift_right at 11( 218) + 0 on 96;
+file . "rotate_right.vhdl" "52751bf17a8cf833d427a7eaf851f419c13e61e3" "20250814080059.286":
+  entity rotate_right at 1( 0) + 0 on 91;
+  architecture rtl of rotate_right at 11( 220) + 0 on 92;
