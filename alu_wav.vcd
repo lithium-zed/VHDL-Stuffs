@@ -1,5 +1,5 @@
 $date
-  Thu Aug 14 16:17:11 2025
+  Thu Sep 11 16:31:51 2025
 $end
 $version
   GHDL v0
@@ -11,35 +11,96 @@ $scope module standard $end
 $upscope $end
 $scope module std_logic_1164 $end
 $upscope $end
+$scope module numeric_std $end
+$upscope $end
 $scope module tb_alu $end
 $var reg 4 ! tb_opcode[3:0] $end
 $var reg 8 " tb_operand_1[7:0] $end
 $var reg 8 # tb_operand_2[7:0] $end
-$var reg 8 $ tb_result[7:0] $end
+$var reg 8 $ tb_operand_3[7:0] $end
+$var reg 8 % tb_result[7:0] $end
 $scope module alu_module $end
-$var reg 4 % opcode[3:0] $end
-$var reg 8 & operand_1[7:0] $end
-$var reg 8 ' operand_2[7:0] $end
-$var reg 8 ( result[7:0] $end
-$var reg 8 ) resultsl[7:0] $end
-$var reg 8 * resultsr[7:0] $end
-$var reg 8 + resultrl[7:0] $end
-$var reg 8 , resultrr[7:0] $end
+$var reg 4 & opcode[3:0] $end
+$var reg 8 ' operand_1[7:0] $end
+$var reg 8 ( operand_2[7:0] $end
+$var reg 8 ) operand_3[7:0] $end
+$var reg 8 * result[7:0] $end
+$var reg 8 + resultsl[7:0] $end
+$var reg 8 , resultsr[7:0] $end
+$var reg 8 - resultrl[7:0] $end
+$var reg 8 . resultrr[7:0] $end
+$var reg 8 / resultadd_8[7:0] $end
+$var reg 8 0 resultsub_8[7:0] $end
+$var reg 1 1 cadd_8 $end
+$var reg 1 2 csub_8 $end
+$var reg 8 3 resultswap[7:0] $end
 $scope module shift_left_module $end
-$var reg 8 - operand_1[7:0] $end
-$var reg 8 . result[7:0] $end
+$var reg 8 4 operand_1[7:0] $end
+$var reg 8 5 result[7:0] $end
 $upscope $end
 $scope module shift_right_module $end
-$var reg 8 / operand_1[7:0] $end
-$var reg 8 0 result[7:0] $end
+$var reg 8 6 operand_1[7:0] $end
+$var reg 8 7 result[7:0] $end
 $upscope $end
 $scope module rotate_left_module $end
-$var reg 8 1 operand_1[7:0] $end
-$var reg 8 2 result[7:0] $end
+$var reg 8 8 operand_1[7:0] $end
+$var reg 8 9 result[7:0] $end
 $upscope $end
 $scope module rotate_right_module $end
-$var reg 8 3 operand_1[7:0] $end
-$var reg 8 4 result[7:0] $end
+$var reg 8 : operand_1[7:0] $end
+$var reg 8 ; result[7:0] $end
+$upscope $end
+$scope module add_8_module $end
+$var reg 8 < x[7:0] $end
+$var reg 8 = y[7:0] $end
+$var reg 8 > z[7:0] $end
+$var reg 1 ? c $end
+$var reg 8 @ s[7:0] $end
+$var reg 8 A s1[7:0] $end
+$var reg 1 B c1 $end
+$var reg 1 C c2 $end
+$scope module half_adder_1 $end
+$var reg 8 D x[7:0] $end
+$var reg 8 E y[7:0] $end
+$var reg 1 F c $end
+$var reg 8 G s[7:0] $end
+$var reg 9 H temp_s[8:0] $end
+$upscope $end
+$scope module half_adder_2 $end
+$var reg 8 I x[7:0] $end
+$var reg 8 J y[7:0] $end
+$var reg 1 K c $end
+$var reg 8 L s[7:0] $end
+$var reg 9 M temp_s[8:0] $end
+$upscope $end
+$upscope $end
+$scope module subtract_8_module $end
+$var reg 8 N x[7:0] $end
+$var reg 8 O y[7:0] $end
+$var reg 8 P z[7:0] $end
+$var reg 1 Q c $end
+$var reg 8 R s[7:0] $end
+$var reg 8 S s1[7:0] $end
+$var reg 1 T c1 $end
+$var reg 1 U c2 $end
+$scope module subtract_1 $end
+$var reg 8 V x[7:0] $end
+$var reg 8 W y[7:0] $end
+$var reg 1 X c $end
+$var reg 8 Y s[7:0] $end
+$var reg 9 Z temp_s[8:0] $end
+$upscope $end
+$scope module subtract_2 $end
+$var reg 8 [ x[7:0] $end
+$var reg 8 \ y[7:0] $end
+$var reg 1 ] c $end
+$var reg 8 ^ s[7:0] $end
+$var reg 9 _ temp_s[8:0] $end
+$upscope $end
+$upscope $end
+$scope module swap_module $end
+$var reg 8 ` x[7:0] $end
+$var reg 8 a result[7:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -48,56 +109,79 @@ $enddefinitions $end
 b0000 !
 b00111010 "
 b10111001 #
-b00111000 $
-b0000 %
-b00111010 &
-b10111001 '
-b00111000 (
-b01110100 )
-b00011101 *
+bUUUUUUUU $
+b00111000 %
+b0000 &
+b00111010 '
+b10111001 (
+bUUUUUUUU )
+b00111000 *
 b01110100 +
 b00011101 ,
-b00111010 -
-b01110100 .
-b00111010 /
-b00011101 0
-b00111010 1
-b01110100 2
-b00111010 3
-b00011101 4
+b01110100 -
+b00011101 .
+bXXXXXXXX /
+bXXXXXXXX 0
+X1
+12
+b10100011 3
+b00111010 4
+b01110100 5
+b00111010 6
+b00011101 7
+b00111010 8
+b01110100 9
+b00111010 :
+b00011101 ;
+b00111010 <
+b10111001 =
+bUUUUUUUU >
+X?
+bXXXXXXXX @
+b11110011 A
+0B
+XC
+b00111010 D
+b10111001 E
+0F
+b11110011 G
+b011110011 H
+b11110011 I
+bUUUUUUUU J
+XK
+bXXXXXXXX L
+bXXXXXXXXX M
+b00111010 N
+b10111001 O
+bUUUUUUUU P
+1Q
+bXXXXXXXX R
+b10000001 S
+1T
+XU
+b00111010 V
+b10111001 W
+1X
+b10000001 Y
+b110000001 Z
+b10000001 [
+bUUUUUUUU \
+X]
+bXXXXXXXX ^
+bXXXXXXXXX _
+b00111010 `
+b10100011 a
 #10000000000000
-b0001 !
-b10111011 $
-b0001 %
-b10111011 (
+b1000 !
+bXXXXXXXX %
+b1000 &
+bXXXXXXXX *
 #20000000000000
-b0010 !
-b11000101 $
-b0010 %
-b11000101 (
+b1001 !
+b1001 &
 #30000000000000
-b0011 !
-b01000110 $
-b0011 %
-b01000110 (
+b1010 !
+b10100011 %
+b1010 &
+b10100011 *
 #40000000000000
-b0100 !
-b01110100 $
-b0100 %
-b01110100 (
-#50000000000000
-b0101 !
-b00011101 $
-b0101 %
-b00011101 (
-#60000000000000
-b0110 !
-b01110100 $
-b0110 %
-b01110100 (
-#70000000000000
-b0111 !
-b00011101 $
-b0111 %
-b00011101 (
-#80000000000000

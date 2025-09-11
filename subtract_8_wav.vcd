@@ -1,0 +1,102 @@
+$date
+  Thu Sep 11 16:06:33 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_subtract_8 $end
+$var reg 8 ! tb_x[7:0] $end
+$var reg 8 " tb_y[7:0] $end
+$var reg 8 # tb_z[7:0] $end
+$var reg 1 $ tb_c $end
+$var reg 8 % tb_s[7:0] $end
+$scope module subtract_8_module $end
+$var reg 8 & x[7:0] $end
+$var reg 8 ' y[7:0] $end
+$var reg 8 ( z[7:0] $end
+$var reg 1 ) c $end
+$var reg 8 * s[7:0] $end
+$var reg 8 + s1[7:0] $end
+$var reg 1 , c1 $end
+$var reg 1 - c2 $end
+$scope module subtract_1 $end
+$var reg 8 . x[7:0] $end
+$var reg 8 / y[7:0] $end
+$var reg 1 0 c $end
+$var reg 8 1 s[7:0] $end
+$var reg 9 2 temp_s[8:0] $end
+$upscope $end
+$scope module subtract_2 $end
+$var reg 8 3 x[7:0] $end
+$var reg 8 4 y[7:0] $end
+$var reg 1 5 c $end
+$var reg 8 6 s[7:0] $end
+$var reg 9 7 temp_s[8:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000 !
+b00000000 "
+b00000000 #
+0$
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+0)
+b00000000 *
+b00000000 +
+0,
+0-
+b00000000 .
+b00000000 /
+00
+b00000000 1
+b000000000 2
+b00000000 3
+b00000000 4
+05
+b00000000 6
+b000000000 7
+#10000000000000
+b00011011 !
+b00000111 "
+b00010100 %
+b00011011 &
+b00000111 '
+b00010100 *
+b00010100 +
+b00011011 .
+b00000111 /
+b00010100 1
+b000010100 2
+b00010100 3
+b00010100 6
+b000010100 7
+#20000000000000
+b11111111 !
+b11111111 "
+b00000000 %
+b11111111 &
+b11111111 '
+b00000000 *
+b00000000 +
+b11111111 .
+b11111111 /
+b00000000 1
+b000000000 2
+b00000000 3
+b00000000 6
+b000000000 7
+#30000000000000

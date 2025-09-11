@@ -1,0 +1,114 @@
+$date
+  Thu Sep 11 15:36:49 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_full_adder $end
+$var reg 8 ! tb_x[7:0] $end
+$var reg 8 " tb_y[7:0] $end
+$var reg 8 # tb_z[7:0] $end
+$var reg 1 $ tb_c $end
+$var reg 8 % tb_s[7:0] $end
+$scope module tb_full_adder_module $end
+$var reg 8 & x[7:0] $end
+$var reg 8 ' y[7:0] $end
+$var reg 8 ( z[7:0] $end
+$var reg 1 ) c $end
+$var reg 8 * s[7:0] $end
+$var reg 8 + s1[7:0] $end
+$var reg 1 , c1 $end
+$var reg 1 - c2 $end
+$scope module half_adder_1 $end
+$var reg 8 . x[7:0] $end
+$var reg 8 / y[7:0] $end
+$var reg 1 0 c $end
+$var reg 8 1 s[7:0] $end
+$var reg 9 2 temp_s[8:0] $end
+$upscope $end
+$scope module half_adder_2 $end
+$var reg 8 3 x[7:0] $end
+$var reg 8 4 y[7:0] $end
+$var reg 1 5 c $end
+$var reg 8 6 s[7:0] $end
+$var reg 9 7 temp_s[8:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000 !
+b00000000 "
+b00000000 #
+0$
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+0)
+b00000000 *
+b00000000 +
+0,
+0-
+b00000000 .
+b00000000 /
+00
+b00000000 1
+b000000000 2
+b00000000 3
+b00000000 4
+05
+b00000000 6
+b000000000 7
+#10000000000000
+b00101100 !
+b10010011 "
+b01010111 #
+1$
+b00010110 %
+b00101100 &
+b10010011 '
+b01010111 (
+1)
+b00010110 *
+b10111111 +
+1-
+b00101100 .
+b10010011 /
+b10111111 1
+b010111111 2
+b10111111 3
+b01010111 4
+15
+b00010110 6
+b100010110 7
+#20000000000000
+b11111111 !
+b11111111 "
+b11111111 #
+b11111101 %
+b11111111 &
+b11111111 '
+b11111111 (
+b11111101 *
+b11111110 +
+1,
+b11111111 .
+b11111111 /
+10
+b11111110 1
+b111111110 2
+b11111110 3
+b11111111 4
+b11111101 6
+b111111101 7
+#30000000000000
