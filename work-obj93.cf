@@ -1,75 +1,90 @@
 v 4
-file . "swap.vhdl" "f262ac74d7da38bcea87a4223e3c02f7678e5686" "20250911083118.576":
-  entity swap at 1( 0) + 0 on 157;
-  architecture rtl of swap at 12( 223) + 0 on 158;
-file . "subtract_8.vhdl" "6d0ec51b001685a1f11a13eaec5bbe11291dc075" "20250911075840.323":
-  entity subtract_8 at 1( 0) + 0 on 143;
-  architecture rtl of subtract_8 at 13( 262) + 0 on 144;
-file . "full_adder.vhdl" "fd75adfd23f29276cf0cf4d9b3a5325c2ed436e5" "20250911072107.633":
-  entity full_adder at 1( 0) + 0 on 127;
-  architecture rtl of full_adder at 14( 264) + 0 on 128;
-file . "rotate_right.vhdl" "52751bf17a8cf833d427a7eaf851f419c13e61e3" "20250814080059.286":
-  entity rotate_right at 1( 0) + 0 on 91;
-  architecture rtl of rotate_right at 11( 220) + 0 on 92;
-file . "shift_right.vhdl" "e8aa7259234ea217484ac2f9e8b85e1c79825d67" "20250814080105.612":
-  entity shift_right at 1( 0) + 0 on 95;
-  architecture rtl of shift_right at 11( 218) + 0 on 96;
-file . "something.vhdl" "309c3d2ade726b47e00fe334c888ff72437ae56e" "20250814055234.261":
-  entity something at 1( 0) + 0 on 80;
-file . "half_adder.vhdl" "7a296b7c9721e4b09b7f49e8a7802d825e03a75e" "20250911071827.971":
-  entity half_adder at 1( 0) + 0 on 125;
-  architecture rtl of half_adder at 13( 256) + 0 on 126;
-file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
-  entity tb_comparator at 1( 0) + 0 on 78;
-  architecture rtl of tb_comparator at 7( 98) + 0 on 79;
-file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081017.448":
-  entity comparator at 1( 0) + 0 on 74;
-  architecture rtl of comparator at 11( 192) + 0 on 75;
-file . "tb_decoder_alu.vhdl" "09521046da5b671e02eb106dc4331d3924d74f3d" "20250731073200.580":
-  entity tb_decoder_alu at 1( 0) + 0 on 53;
-  architecture rtl of tb_decoder_alu at 7( 96) + 0 on 54;
-file . "alu.vhdl" "49da3b819b98cd7c20b7bfe0ff097992cc24a345" "20250911082327.012":
-  entity alu at 1( 0) + 0 on 151;
-  architecture rtl of alu at 14( 508) + 0 on 152;
-file . "tb_my_and.vhdl" "d911f479ef03d65f30a3e5ad123223d90f3fcb52" "20250724081709.018":
-  entity tb_my_and at 1( 0) + 0 on 25;
-  architecture rtl of tb_my_and at 8( 92) + 0 on 26;
-file . "my_and.vhdl" "2e9ec09b638428072e3ef27b6aac82182cc65016" "20250724071244.137":
-  entity my_and at 1( 0) + 0 on 11;
-  architecture rtl of my_and at 12( 180) + 0 on 12;
-file . "instruction_decoder.vhdl" "14a2bfc56225971a1bb315ff853015a2dbd100b4" "20250724080004.772":
-  entity instruction_decoder at 2( 79) + 0 on 21;
-  architecture rtl of instruction_decoder at 16( 657) + 0 on 22;
-file . "tb_instruction_decoder.vhdl" "327862ce9dd19857d7849347e105f66a11677d13" "20250724081723.730":
-  entity tb_instruction_decoder at 1( 0) + 0 on 27;
-  architecture rtl of tb_instruction_decoder at 7( 112) + 0 on 28;
-file . "tb_alu.vhdl" "a0943b4ecf67e9c5262473e2d0185a415f37cb18" "20250911083123.344":
-  entity tb_alu at 1( 0) + 0 on 159;
-  architecture rtl of tb_alu at 8( 82) + 0 on 160;
-file . "traffic_light_controller.vhdl" "4145cb5588b2c546d2f27e313be33606d7787d4c" "20250807062849.648":
-  entity traffic_light_controller at 1( 0) + 0 on 57;
-  architecture rtl of traffic_light_controller at 11( 235) + 0 on 58;
-file . "tb_traffic_light_controller.vhdl" "939059060d80c7e931e2e170da18a3834d65cc02" "20250807070804.537":
-  entity tb_traffic_light_controller at 1( 0) + 0 on 67;
-  architecture rtl of tb_traffic_light_controller at 7( 126) + 0 on 68;
-file . "shift_left.vhdl" "221e49e02ca93a1df9bacf435d3080a5aa0155ed" "20250814080107.903":
-  entity shift_left at 1( 0) + 0 on 97;
-  architecture rtl of shift_left at 12( 218) + 0 on 98;
-file . "rotate_left.vhdl" "5cf17f1a39bd9ef23ca25523fd35020c757ab3df" "20250814080102.310":
-  entity rotate_left at 1( 0) + 0 on 93;
-  architecture rtl of rotate_left at 11( 218) + 0 on 94;
-file . "tb_half_adder.vhdl" "418db16c9d8b994a134b296c2d29377380672c12" "20250807120254.730":
-  entity tb_half_adder at 1( 0) + 0 on 82;
-  architecture test of tb_half_adder at 7( 94) + 0 on 83;
-file . "tb_full_adder.vhdl" "ebd00322c03483cbd2c13d03e7d4b68df5bbc6e5" "20250911073647.057":
-  entity tb_full_adder at 1( 0) + 0 on 135;
-  architecture behavior of tb_full_adder at 7( 94) + 0 on 136;
-file . "add_8.vhdl" "3350f56c6df2487eca8a6232e04c11e7a4c0feed" "20250911074904.044":
-  entity add_8 at 1( 0) + 0 on 137;
-  architecture rtl of add_8 at 14( 254) + 0 on 138;
-file . "subtract.vhdl" "21d7e8dc545d9095300f81cefed0d11785dc4a3f" "20250911075421.813":
-  entity subtract at 1( 0) + 0 on 141;
-  architecture rtl of subtract at 13( 252) + 0 on 142;
+file . "tb_Decoder_74138.vhdl" "22f396bd19c9056966c6791ff7a7d57ba53b3291" "20251009080749.271":
+  entity tb_decoder_74138 at 1( 0) + 0 on 193;
+  architecture rtl of tb_decoder_74138 at 7( 100) + 0 on 194;
+file . "tb_Decoder_74139.vhdl" "402ac829789b4396c58a45a405832b3d3b9e6817" "20251009073417.761":
+  entity tb_decoder_74139 at 1( 0) + 0 on 183;
+  architecture rtl of tb_decoder_74139 at 7( 100) + 0 on 184;
+file . "Decoder_74139.vhdl" "f3e5039b570e020b928e18e6bf1256747bf2a026" "20251009072656.998":
+  entity decoder_74139 at 1( 0) + 0 on 175;
+  architecture rtl of decoder_74139 at 12( 212) + 0 on 176;
 file . "tb_subtract_8.vhdl" "a0c930dad64463e220aa8341d5928180e45f39ec" "20250911080601.137":
   entity tb_subtract_8 at 1( 0) + 0 on 145;
   architecture behavioral of tb_subtract_8 at 8( 125) + 0 on 146;
+file . "subtract.vhdl" "21d7e8dc545d9095300f81cefed0d11785dc4a3f" "20250911075421.813":
+  entity subtract at 1( 0) + 0 on 141;
+  architecture rtl of subtract at 13( 252) + 0 on 142;
+file . "add_8.vhdl" "3350f56c6df2487eca8a6232e04c11e7a4c0feed" "20250911074904.044":
+  entity add_8 at 1( 0) + 0 on 137;
+  architecture rtl of add_8 at 14( 254) + 0 on 138;
+file . "tb_full_adder.vhdl" "ebd00322c03483cbd2c13d03e7d4b68df5bbc6e5" "20250911073647.057":
+  entity tb_full_adder at 1( 0) + 0 on 135;
+  architecture behavior of tb_full_adder at 7( 94) + 0 on 136;
+file . "tb_half_adder.vhdl" "418db16c9d8b994a134b296c2d29377380672c12" "20250807120254.730":
+  entity tb_half_adder at 1( 0) + 0 on 82;
+  architecture test of tb_half_adder at 7( 94) + 0 on 83;
+file . "rotate_left.vhdl" "5cf17f1a39bd9ef23ca25523fd35020c757ab3df" "20250814080102.310":
+  entity rotate_left at 1( 0) + 0 on 93;
+  architecture rtl of rotate_left at 11( 218) + 0 on 94;
+file . "shift_left.vhdl" "221e49e02ca93a1df9bacf435d3080a5aa0155ed" "20250814080107.903":
+  entity shift_left at 1( 0) + 0 on 97;
+  architecture rtl of shift_left at 12( 218) + 0 on 98;
+file . "tb_traffic_light_controller.vhdl" "939059060d80c7e931e2e170da18a3834d65cc02" "20250807070804.537":
+  entity tb_traffic_light_controller at 1( 0) + 0 on 67;
+  architecture rtl of tb_traffic_light_controller at 7( 126) + 0 on 68;
+file . "traffic_light_controller.vhdl" "4145cb5588b2c546d2f27e313be33606d7787d4c" "20250807062849.648":
+  entity traffic_light_controller at 1( 0) + 0 on 57;
+  architecture rtl of traffic_light_controller at 11( 235) + 0 on 58;
+file . "tb_alu.vhdl" "a0943b4ecf67e9c5262473e2d0185a415f37cb18" "20250911083123.344":
+  entity tb_alu at 1( 0) + 0 on 159;
+  architecture rtl of tb_alu at 8( 82) + 0 on 160;
+file . "tb_instruction_decoder.vhdl" "327862ce9dd19857d7849347e105f66a11677d13" "20250724081723.730":
+  entity tb_instruction_decoder at 1( 0) + 0 on 27;
+  architecture rtl of tb_instruction_decoder at 7( 112) + 0 on 28;
+file . "instruction_decoder.vhdl" "14a2bfc56225971a1bb315ff853015a2dbd100b4" "20250724080004.772":
+  entity instruction_decoder at 2( 79) + 0 on 21;
+  architecture rtl of instruction_decoder at 16( 657) + 0 on 22;
+file . "my_and.vhdl" "2e9ec09b638428072e3ef27b6aac82182cc65016" "20250724071244.137":
+  entity my_and at 1( 0) + 0 on 11;
+  architecture rtl of my_and at 12( 180) + 0 on 12;
+file . "tb_my_and.vhdl" "d911f479ef03d65f30a3e5ad123223d90f3fcb52" "20250724081709.018":
+  entity tb_my_and at 1( 0) + 0 on 25;
+  architecture rtl of tb_my_and at 8( 92) + 0 on 26;
+file . "alu.vhdl" "49da3b819b98cd7c20b7bfe0ff097992cc24a345" "20250911082327.012":
+  entity alu at 1( 0) + 0 on 151;
+  architecture rtl of alu at 14( 508) + 0 on 152;
+file . "tb_decoder_alu.vhdl" "09521046da5b671e02eb106dc4331d3924d74f3d" "20250731073200.580":
+  entity tb_decoder_alu at 1( 0) + 0 on 53;
+  architecture rtl of tb_decoder_alu at 7( 96) + 0 on 54;
+file . "comparator.vhdl" "e7a509e0bb33805dbf218d774e5091517650d5fd" "20250807081017.448":
+  entity comparator at 1( 0) + 0 on 74;
+  architecture rtl of comparator at 11( 192) + 0 on 75;
+file . "tb_comparator.vhdl" "4de98ea94d3d0d58ecee039499fae9d01b8c05eb" "20250807081814.469":
+  entity tb_comparator at 1( 0) + 0 on 78;
+  architecture rtl of tb_comparator at 7( 98) + 0 on 79;
+file . "half_adder.vhdl" "7a296b7c9721e4b09b7f49e8a7802d825e03a75e" "20250911071827.971":
+  entity half_adder at 1( 0) + 0 on 125;
+  architecture rtl of half_adder at 13( 256) + 0 on 126;
+file . "something.vhdl" "309c3d2ade726b47e00fe334c888ff72437ae56e" "20250814055234.261":
+  entity something at 1( 0) + 0 on 80;
+file . "shift_right.vhdl" "e8aa7259234ea217484ac2f9e8b85e1c79825d67" "20250814080105.612":
+  entity shift_right at 1( 0) + 0 on 95;
+  architecture rtl of shift_right at 11( 218) + 0 on 96;
+file . "rotate_right.vhdl" "52751bf17a8cf833d427a7eaf851f419c13e61e3" "20250814080059.286":
+  entity rotate_right at 1( 0) + 0 on 91;
+  architecture rtl of rotate_right at 11( 220) + 0 on 92;
+file . "full_adder.vhdl" "fd75adfd23f29276cf0cf4d9b3a5325c2ed436e5" "20250911072107.633":
+  entity full_adder at 1( 0) + 0 on 127;
+  architecture rtl of full_adder at 14( 264) + 0 on 128;
+file . "subtract_8.vhdl" "6d0ec51b001685a1f11a13eaec5bbe11291dc075" "20250911075840.323":
+  entity subtract_8 at 1( 0) + 0 on 143;
+  architecture rtl of subtract_8 at 13( 262) + 0 on 144;
+file . "swap.vhdl" "f262ac74d7da38bcea87a4223e3c02f7678e5686" "20250911083118.576":
+  entity swap at 1( 0) + 0 on 157;
+  architecture rtl of swap at 12( 223) + 0 on 158;
+file . "Decoder_74154.vhdl" "0f6904c0414e602dae3b5cc528886af8c3074551" "20251009064546.597":
+  entity decoder_4to16 at 1( 0) + 0 on 167;
+  architecture rtl of decoder_4to16 at 11( 230) + 0 on 168;
+file . "Decoder_74138.vhdl" "3cd3c4de19f571f7a56306113df839a38275522c" "20251009080519.157":
+  entity decoder_3to8 at 1( 0) + 0 on 187;
+  architecture rtl of decoder_3to8 at 14( 395) + 0 on 188;
